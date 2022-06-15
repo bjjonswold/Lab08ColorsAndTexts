@@ -24,7 +24,7 @@ Review the code provided. Answer the following questions by adding comments to y
 
 # Step One
 Read the code in ColorsAndTexts.py. Answer the following questions as comments in the code.
-1. Look at green(str). Why is there a +1 next to the str.index(',')? Why is there NOT a -1 next to the str.index('.')?
+1. Look at green(str). Why is the end index 4 and not 3? 
 2. Look at blue(str) and red(str). Note that there is no end value for blue and no start value for red. What does this do?
 3. Find the comment in main. What happens if we replace these three if statements with if, elif, and else? How does this change what the code does?
 4. How does textToSpeech(txtlst) know what to translate the texts to?
