@@ -37,7 +37,7 @@ def red(str):
 #input: string of RGB values
 #output: the green value
 def green(str):
-    return int(str[2: 4], 16) #Why +1?
+    return int(str[2: 4], 16) #Why 4?
 
 #input: string of RGB values
 #output: the blue value
