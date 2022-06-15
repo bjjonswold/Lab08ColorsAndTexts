@@ -32,17 +32,17 @@ def textToSpeech(txtlst):
 #input: string of RGB values
 #output: the red value
 def red(str):
-    return int(str[:str.index(',')], 16)
+    return int(str[:2], 16)
 
 #input: string of RGB values
 #output: the green value
 def green(str):
-    return int(str[str.index(',') + 1: str.index('.')], 16) #Why +1?
+    return int(str[2: 4], 16) #Why +1?
 
 #input: string of RGB values
 #output: the blue value
 def blue(str):
-    return int(str[str.index(".") + 1:], 16) #what happens when we don't put the second value?
+    return int(str[4:], 16) #what happens when we don't put the second value?
 
 # input: color as RGB code
 #output: true or false depending on if a person with protanopia could see it
