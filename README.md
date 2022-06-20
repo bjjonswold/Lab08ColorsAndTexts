@@ -74,3 +74,4 @@ like ranges.
 
 # Reminder on Dictionaries
 Dictionaries work like real dictionaries. They have words (keys) and definitions (values). When reading a dictionary, you will see these two separated by a :. To access a value using the key, you use dictionaryName\[key]. This works the same way as finding a word in the dicitonary and using that to get the definition. Like a dictionary, it is also a lot more complicated to use your definition (or value) to find the word (or key).
+
