@@ -23,7 +23,7 @@ https://www.google.com/search?q=rgb+color+picker&rlz=1C1CHBF_enUS756US756&oq=rgb
 Review the code provided. Answer the following questions by adding comments to your code! You are free to talk with other students, and seek better understanding to these questions. See below for reminders on types, variables, and input
 
 # Step One
-Read the code in ColorsAndTexts.py. Answer the following questions as comments in the code.
+Read the code in ColorsAndTexts.py. Complete the following questions in the comments at the top of your code. If your answer is multiple lines, use these: \``` around your answer:
 1. Look at green(str). Why is the end index 4 and not 3? 
 2. Look at blue(str) and red(str). Note that there is no end value for blue and no start value for red. What does this do?
 3. Find the comment in main. What happens if we replace these three if statements with if, elif, and else? How does this change what the code does?
