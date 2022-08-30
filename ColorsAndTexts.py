@@ -16,7 +16,7 @@ def textToSpeech(txtlst):
     str = ""
     for word in txtlst:
         if word.lower() in texts:
-            num = texts.index(word.lower)
+            num = texts.index(word.lower())
             str += " " + textTranslations[num]
         else:
             str += " " + word
