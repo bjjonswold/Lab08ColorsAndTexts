@@ -1,13 +1,5 @@
-textTranslations = {
-    "lol" : "laughing out loud",
-    "ttyl" : "talk to you later",
-    "nvm" : "nevermind",
-    "brb" : "be right back",
-    "smh" : "shaking my head",
-    "idk" : "I don't know",
-    "btw" : "by the way"
-
-}
+texts = ["lol", "ttyl", "nvm", "brb", "smh", "idk", "btw"]
+textTranslations = ["laughing out loud", "talk to you later", "nevermind", "be right back", "shaking my head", "I don't know", "by the way"]
 
 #reads in files and puts the items into lists--if the files have sentences, it separates the words in the list
 def readFile(fileName):
@@ -23,8 +15,9 @@ def readFile(fileName):
 def textToSpeech(txtlst):
     str = ""
     for word in txtlst:
-        if word.lower() in textTranslations:
-            str += " " + textTranslations[word.lower()]
+        if word.lower() in texts:
+            num = texts.index(word.lower)
+            str += " " + textTranslations[num]
         else:
             str += " " + word
     return "Translated: " + str
