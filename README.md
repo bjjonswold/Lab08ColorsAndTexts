@@ -36,11 +36,11 @@ Write the code for tritanopiaSee(color) so that if the blue for the color is gre
 
 Ex: for
 ```
-tritanopiaSee("231,240.2") 
+tritanopiaSee("E70F02") 
 ```
 the function would return true
 ```
-tritanopiaSee("3,240.2") 
+tritanopiaSee("03F002") 
 ```
 the function would return false
 
@@ -49,8 +49,8 @@ How do you test code? You simply add the lines to your python file (in the futur
 
 As such, we would recommend adding the following just above def main().
 ```
-print("TESTING", tritanopiaSee("231,240.2"))
-print("TESTING", tritanopiaSee("3,240.2"))
+print("TESTING", tritanopiaSee("E70F02"))
+print("TESTING", tritanopiaSee("03F002"))
 ```
 Also add your own tests!
 
