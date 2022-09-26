@@ -49,7 +49,7 @@ How do you test code? You simply add the lines to your python file (in the futur
 
 As such, we would recommend adding the following just above def main().
 ```
-print("TESTING", tritanopiaSee("E70F02"))
+print("TESTING", tritanopiaSee("E7F002"))
 print("TESTING", tritanopiaSee("03F002"))
 ```
 Also add your own tests!
