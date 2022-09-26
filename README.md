@@ -36,7 +36,7 @@ Write the code for tritanopiaSee(color) so that if the blue for the color is gre
 
 Ex: for
 ```
-tritanopiaSee("E70F02") 
+tritanopiaSee("E7F002") 
 ```
 the function would return true
 ```
