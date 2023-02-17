@@ -59,7 +59,7 @@ Make sure to submit the assignment for grading! If you haven't clicked through t
 
 # Reminder on Substrings
 Substrings are a way to cut apart strings or extract specific parts of them. We can do this with hardset numbers or with indexes.
-# Harset Numbers
+# Hardset Numbers
 These work best when working with something of a set size
 ```
 Ex: str = "Howdy, y'all" str[0:5] = "Howdy"
