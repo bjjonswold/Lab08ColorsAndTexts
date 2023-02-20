@@ -1,3 +1,11 @@
+'''
+1. This is because it indexes to up to 4 non-inclusive. So really, it only indexes to 3, which is what we want. 
+2. When there is no start value, it will start at default index value 0 and when there is no end, it will index to the end of the list. 
+3. As it is written now, every if statement is checked. If they were changed to if, elif, and else, only one statement would be executed. 
+4. This code searches each element in txtlist to see if it is found in the "text" list, and if it is, it will index this location, and call the 
+same location in the textTranslations list to append the translation to the translated string. 
+'''
+
 texts = ["lol", "ttyl", "nvm", "brb", "smh", "idk", "btw"]
 textTranslations = ["laughing out loud", "talk to you later", "nevermind", "be right back", "shaking my head", "I don't know", "by the way"]
 
@@ -51,7 +59,10 @@ def deuteranopiaSee(color):
 #output: true or false depending on if a person with tritanopia could see it
 def tritanopiaSee(color):
     #student code
-    return False
+    return (blue(color) > 0 and red(color) > 230 and green(color) > 230)
+
+print("TESTING", tritanopiaSee("E7F002"))
+print("TESTING", tritanopiaSee("03F002"))
 
 def main():
     text = readFile("text.txt")
